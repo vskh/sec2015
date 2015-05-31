@@ -1,0 +1,21 @@
+{
+  "name": "sec2015",
+  "version": "0.0.1",
+  "authors": [
+    "Vadym S. Khondar <vadym@khondar.name>"
+  ],
+  "description": "SEC2015 Reactive programming every day",
+  "license": "GPL",
+  "homepage": "https://github.com/vskh/sec2015",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3",
+    "rxjs": "~2.5.2"
+  }
+}

@@ -1,5 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 
+src/main/resources/jquery/
+src/main/resources/rxjs/
+
 ### Java template
 *.class
 
