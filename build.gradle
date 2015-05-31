@@ -38,6 +38,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     runtime("com.h2database:h2")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+    providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
     testCompile("org.springframework.boot:spring-boot-starter-test") 
 }
 
