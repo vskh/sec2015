@@ -15,7 +15,5 @@ $(function() {
         } else if (key) {
             currentWord += key;
         }
-
-        console.log('Current word: ' + currentWord);
     });
 });

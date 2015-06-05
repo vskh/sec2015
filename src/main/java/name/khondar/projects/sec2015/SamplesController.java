@@ -50,4 +50,9 @@ public class SamplesController {
 
         return "hashtagger";
     }
+
+    @RequestMapping("/arkanoid")
+    public String arkanoid() {
+        return "arkanoid";
+    }
 }

@@ -15,6 +15,7 @@
     <div id="content">
         <ul>
             <li>Hash tagger: <a href="/hashtagger/usual">usual</a> | <a href="/hashtagger/reactive">reactive</a></li>
+            <li>Arkanoid: <a href="/arkanoid">singleplayer</a></li>
         </ul>
     </div>
 </body>

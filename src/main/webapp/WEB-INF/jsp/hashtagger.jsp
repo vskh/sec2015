@@ -2,8 +2,8 @@
 <html>
 <head>
     <title>${appdescription} - Hashtagger</title>
-    <script type="text/javascript" src="/static/jquery/dist/jquery.js"></script>
-    <script type="text/javascript" src="/static/rxjs/dist/rx.all.js"></script>
+    <script type="text/javascript" src="/static/vendor/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/static/vendor/rxjs/dist/rx.all.js"></script>
     <script type="text/javascript" src="/static/hashtagger-${type}.js"></script>
     <style type="text/css">
         .view {

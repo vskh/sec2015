@@ -1,13 +1,14 @@
 $(function () {
-
     var keyStream = Rx.Observable.fromEvent($('#textin'), 'keypress')
-                    .map(function (event) { return String.fromCharCode(event.keyCode || event.charCode); });
+                    .map(function (event) {
+                        return String.fromCharCode(event.keyCode || event.charCode);
+                    });
 
-    var newWordEvent = keyStream.filter(function (char) {
+    var endOfWordStream = keyStream.filter(function (char) {
         return !String(char).match(/[\w]/);
     });
 
-    var wordStream = keyStream.buffer(newWordEvent);
+    var wordStream = keyStream.buffer(endOfWordStream);
 
     var uiUpdater = Rx.Observer.create(function (word) {
         word = word.join('').trim();
